@@ -1,0 +1,11 @@
+notebook
+ipywidgets
+tqdm
+python-dotenv
+openai
+streamlit
+rembg
+mlflow
+asyncio
+aiohttp
+-e .
