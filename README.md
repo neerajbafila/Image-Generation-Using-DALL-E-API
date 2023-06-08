@@ -1,6 +1,6 @@
 
 
-# to rum streamlit app use below command
+# to run streamlit app use below command
 ```
 streamlit run src/main.py
 ```
