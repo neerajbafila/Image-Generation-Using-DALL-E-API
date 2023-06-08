@@ -1,1 +1,6 @@
-# generalTemplate
+
+
+# to rum streamlit app use below command
+```
+streamlit run src/main.py
+```
