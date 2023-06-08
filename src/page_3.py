@@ -19,6 +19,7 @@ def page_three():
         st.image(image, caption="uploaded image", use_column_width=True)
         width, height =  get_width_height(size)
         resize_img =  resize_image(image, width, height)
+        st.text('Generating images with variation....')
         response = openai.Image.create_variation(image=resize_img, n=num_images, size=size)
 
         for idx in range(num_images):

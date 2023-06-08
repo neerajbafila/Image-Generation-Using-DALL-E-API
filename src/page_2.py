@@ -14,6 +14,7 @@ def page_two():
         submit_button = st.form_submit_button(label='submit') 
     if submit_button:
         if prompt:
+            st.text(f"Generating images......")
             response = openai.Image.create(prompt=prompt, n=num_images, size=size)
             
             for idx in range(num_images):
